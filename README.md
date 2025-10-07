@@ -1,4 +1,4 @@
-# Global App running on ECS Frontend by Apache Webserver
+# Architecting a Global App on AWS: ECS, Multi-Region Deployment, and Apache Integration
 
 
 
