@@ -1,4 +1,4 @@
-# Global App running with ECS behind Apache Webserver
+# Global App running on ECS Frontend by Apache Webserver
 
 
 
