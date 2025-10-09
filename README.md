@@ -6,19 +6,19 @@
 
 
 
-## 1. Route 53 
+## Route 53 
 
    Route 53 is s designed for extremely high availability and is inherently resilient, as it is a global, distributed service utilizing an Anycast network.
    
-# 2. ALB WEB 
+## ALB WEB 
 
    Route 53 will redirect incoming request to WEB ALB. It will accept incoming https request, and will forward it to ECS tasks running Apache webserver.
    
-# 3. ECS WEB
+## ECS WEB
    Two replicas of Apache 2.4 tasks would be running to server the incoming request. Replicas will be running in different AZs to provide resilience to the ECS Service. It will forward incoming request to the ALB UI service. 
    
-# 4. ALB UI
+## ALB UI
    Thie is the entrypoint for backend UI service, running inside ECS cluster.
    
-# 5. ECS UI
+## ECS UI
    It's the second ECS cluster hosting two replicas of tasks hosting React App.
