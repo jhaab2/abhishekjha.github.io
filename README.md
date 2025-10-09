@@ -31,14 +31,14 @@ Each task handles requests and forwards them to the **UI ALB** for backend commu
 
 ---
 
-## 🧭 ALB – UI Tier  
+## ⚖️ ALB – UI Tier  
 
 The **UI Application Load Balancer** acts as the entry point for the **backend UI microservice**.  
 It intelligently balances traffic across ECS containers hosting the front-end application.
 
 ---
 
-## ⚙️ ECS – UI Service  
+## 🐳 ECS – UI Service  
 
 This ECS cluster hosts the **React-based UI**.  
 It runs **two container replicas**, each deployed in different Availability Zones.  
