@@ -4,7 +4,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/de4b44ac-72af-46f0-8637-501b8437917d" alt="AWS Architecture Diagram"/>
+  <img width="400" height="591" alt="Diag-1 0" src="https://github.com/user-attachments/assets/50c7a9b9-a789-4776-a1ca-decc12ced688" />
 </p>
 
 ---
